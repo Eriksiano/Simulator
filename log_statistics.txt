@@ -1,0 +1,58 @@
+Job_ID          Server          Arrival         Pop_time        Finished        Response_Time   Process_Time    Len_Queue      
+1               0               0               0               5               5               5               0              
+1               1               5               5               13              8               8               0              
+2               0               6               6               10              4               4               0              
+2               1               10              13              22              12              9               0              
+3               0               12              12              17              5               5               2              
+1               0               13              17              21              8               4               1              
+4               0               17              21              24              7               3               2              
+3               1               17              22              30              13              8               0              
+1               2               21              21              31              10              10              0              
+2               0               22              24              28              6               4               2              
+5               0               23              28              31              8               3               3              
+6               0               28              31              36              8               5               3              
+2               1               28              30              39              11              9               0              
+3               0               30              36              40              10              4               3              
+1               0               31              40              44              13              4               3              
+7               0               33              44              49              16              5               2              
+6               2               36              36              42              6               6               0              
+2               0               39              49              53              14              4               2              
+3               1               40              40              49              9               9               1              
+6               0               42              53              57              15              4               3              
+8               0               43              57              62              19              5               3              
+1               1               44              49              59              15              10              0              
+3               0               49              62              66              17              4               3              
+2               2               53              53              59              6               6               0              
+9               0               54              66              70              16              4               3              
+1               0               59              70              74              15              4               3              
+2               0               59              74              78              19              4               2              
+10              0               62              78              81              19              3               1              
+8               1               62              62              71              9               9               0              
+8               0               71              81              86              15              5               2              
+11              0               74              86              89              15              3               1              
+10              2               81              81              88              7               7               0              
+12              0               86              89              93              7               4               2              
+8               1               86              86              95              9               9               1              
+10              0               88              93              97              9               4               2              
+11              1               89              95              104             15              9               0              
+
+CPU utilization: 0.94
+Average CPU response: 12
+Max CPU response: 19
+Max CPU queue length: 3
+Weighted Average CPU queue length: 1.93
+Jobs finished in CPU per one unit of time: 0.23
+
+Disk 1 utilization: 0.80
+Average Disk 1 response: 10.78
+Max Disk 1 response: 15
+Max Disk 1 queue: 1
+Weighted Average Disk 1 queue length: 1.20
+Jobs finished in disk 1 per one unit of time: 0.09
+
+Disk 2 utilization: 0.29
+Average Disk 2 response: 7.25
+Max Disk 2 response: 10
+Max Disk 2 queue: 0
+Weighted Average Disk 2 queue length: 0.00
+Jobs finished in disk 2 per one unit of time: 0.04
